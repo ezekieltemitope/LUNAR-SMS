@@ -82,7 +82,7 @@ export default function ResetPassword() {
     setTimeout(() => {
       setIsSubmitting(false);
       alert("Code verified successfully!");
-      navigate("/set-new-password");
+      navigate("/change-password");
     }, 1400);
   };
 
